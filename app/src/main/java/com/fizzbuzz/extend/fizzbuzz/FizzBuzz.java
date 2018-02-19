@@ -35,4 +35,10 @@ public class FizzBuzz {
 
         return returnValue;
     }
+
+    public void printNumber(){
+        for(int i = 1;i <= 100; i++){
+            Log.d("result",count(i));
+        }
+    }
 }
